@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>McKenzie Wynn</title>
+
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/irq5prj.css">
+
+    <!-- link to css stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul>
+          <li class="menu-item"><a href="#">WORK</a>
+            <ul class="sub-menu">
+              <li class="menu-item"><a href="Videos.html">Videos</a></li>
+              <li class="menu-item"><a href="Gallery.html">Gallery</a></li>
+              <li class="menu-item"><a href="Graphics.html">Graphics</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="about.html">ABOUT</a></li>
+          <li class="menu-item"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <a href="index.html">
+      <img class="logo" src="images/logo.png" alt="logo" title="McKenzie's Logo" />
+    </a>
+
+<!-- Social Media Icon Links -->
+  <a href="https://twitter.com/McKenzie_Wynn" target="_blank">
+    <img class="twitter" src="images/twitter-logo.png" alt="twitter" title="twitter" />
+  </a>
+
+  <a href="https://www.instagram.com/mckenzie_wynn/" target="_blank">
+    <img class="instagram" src="images/insta-logo.png" alt="instagram" title="instagram" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/mwynn3/" target="_blank">
+    <img class="linkedin" src="images/linkedin-logo.png" alt="linkedin" title="linkedin" />
+  </a>
+<!----------------------------->
+
+  <main>
+    <h1 class="contactheader">Hey, Let's Connect!</h1>
+    <p class="contact-statement">Need help with a project or just have a good story to tell,
+    Drop your line below!</p>
+
+
+    <!-- Blob pngs -->
+
+    <img class="orangeblob1" src="images/orangeblob1.png" alt="orangeblob1" title="orangeblob1" />
+    <img class="orangeblob2" src="images/orangeblob2.png" alt="orangeblob2" title="orangeblob2" />
+    <img class="orangeblob3" src="images/orangeblob3.png" alt="orangeblob3" title="orangeblob3" />
+    <img class="orangeblob4" src="images/orangeblob4.png" alt="orangeblob4" title="orangeblob4" />
+
+    <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+        <div class="first-name">
+          <label for="firstname" class="label_input_wrap"> First Name:</label>
+          <input type="text" name="req_firstname" id="firstname" />
+        </div>
+
+        <div class="lastname">
+          <label for="lastname" class="label_input_wrap">Last Name:</label>
+          <input type="text" name="lastname" id="lastname" />
+          </div>
+
+          <div class="email">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input type="email" name="req_email" id="email" />
+          </div>
+
+          <div class="company">
+            <label for="company" class="label_input_wrap">Company:</label>
+            <input type="text" name="company" id="company" />
+          </div>
+
+          <div class="message">
+          <label for="message" class="label_input_wrap">Message:</label>
+          <textarea name="req_message" id="message" cols="55" rows="15"></textarea>
+          </div>
+
+          <div class="hover">
+            <input type="submit" value="Let's Chat!"/>
+          </div>
+
+          <section class="pseudo">
+            <p> Thank you so much for visiting my website! </p>
+            <p> Please reach out if you would ever like to work together. </p>
+            <p> Don't forget to follow me on social media! Check the links below. </p>
+          </section>
+
+    </form>
+    </main>
+  <footer>
+    <p>This page is designed by McKenzie Wynn</p>
+  </footer>
+  </body>
+</html>

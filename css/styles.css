@@ -1,0 +1,536 @@
+/*==================================
+
+
+    Universal Styling
+
+
+==================================*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: gopher, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: soleil, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  background-color: #FFEDE5;
+  font-family: soleil, sans-serif;
+}
+
+
+/*==================================
+
+
+    Menu Styling
+
+
+==================================*/
+
+.menu ul li a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 6%;
+  text-align: center;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  background-color: #808080;
+  position: absolute;
+}
+
+.menu-item:hover > .sub-menu  {
+  display: block;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-family: gopher, sans-serif;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 0 60px;
+}
+
+.logo {
+  position: absolute;
+  width: 200px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-top: -540px;
+  margin-left: -130px;
+}
+
+.twitter {
+  padding: 30px 15px;
+  width: 70px;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 745px;
+}
+
+.instagram {
+  padding: 30px 15px;
+  width: 70px;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 845px;
+}
+
+.linkedin {
+  padding: 30px 15px;
+  width: 70px;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 945px;
+}
+
+/*===============================
+
+
+Home Page Styling
+
+
+================================*/
+
+.theta {
+  width: 750px;
+  height: 550px;
+  padding: 10px;
+  position: fixed;
+  left: 525px;
+  top: 225px;
+}
+
+.blueblob1 {
+  width: 600px;
+  position: fixed;
+  left: -100px;
+  top:-130px;
+}
+
+.greenblob1 {
+  width: 600px;
+  position: fixed;
+  left: -150px;
+  top:400px;
+  transform: rotate(-10deg);
+}
+
+.orangeblob1 {
+  width: 800px;
+  position: fixed;
+  left: -40px;
+  top: 820px;
+}
+
+.redblob1 {
+  width: 650px;
+  position: fixed;
+  left: 1200px;
+  top: 700px;
+}
+
+.pinkblob1 {
+  width: 600px;
+  position: fixed;
+  left: 1200px;
+  top:-100px;
+  animation-name: move;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+
+/*===========================
+
+
+About Page Styling
+
+
+===========================*/
+.headshot {
+  padding: 40px;
+  width: 600px;
+  height: 600px;
+  float: left;
+  margin-top: 120px;
+}
+
+.pinkblob4 {
+  width: 300px;
+  position: fixed;
+  left: -100px;
+  top:-130px;
+}
+
+.pinkblob3 {
+  width: 700px;
+  position: fixed;
+  left: -40px;
+  top: 820px;
+}
+
+.pinkblob2 {
+  width: 650px;
+  position: fixed;
+  left: 1400px;
+  top: 700px;
+}
+
+.pinkblob1 {
+  width: 600px;
+  position: fixed;
+  left: 1200px;
+  top:-100px;
+}
+
+.line {
+  margin-top: 120px;
+  margin-left: 650px;
+  padding: 40px;
+  position: absolute;
+  width: 5px;
+  height: 600px;
+}
+
+/*=========================
+
+
+About Body Text
+
+
+==========================*/
+
+.about-me {
+  color: black;
+  font-family: gopher, sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin: 40px;
+  margin-left: 50px;
+  padding: 20px;
+  position: absolute;
+}
+
+.about-body1 {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 20px;
+  height: 630px;
+  letter-spacing: 2px;
+  line-height: 37px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 140px;
+  text-align: center;
+  width: 690px;
+}
+
+.about-body2 {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 20px;
+  height: 630px;
+  letter-spacing: 2px;
+  line-height: 37px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 310px;
+  text-align: center;
+  width: 690px;
+}
+
+.about-body3 {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 20px;
+  height: 630px;
+  letter-spacing: 2px;
+  line-height: 37px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 560px;
+  text-align: center;
+  width: 690px;
+}
+
+
+.education{
+  color: black;
+  font-family: gopher, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1450px;
+  margin-top: 130px;
+}
+
+.hobbies{
+  color: black;
+  font-family: gopher, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1470px;
+  margin-top: 280px;
+}
+
+.favmovie{
+  color: black;
+  font-family: gopher, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1460px;
+  margin-top: 420px;
+}
+
+.currentlywatching{
+  color: black;
+  font-family: gopher, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1410px;
+  margin-top: 570px;
+}
+
+   /*=========================
+
+
+   About Fun Facts
+
+
+   ==========================*/
+
+.education-body{
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1375px;
+  margin-top: 170px;
+  width: 100%;
+}
+
+.education-body2{
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1375px;
+  margin-top: 205px;
+}
+
+.hobbies-body {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1375px;
+  margin-top: 325px;
+}
+
+.favmovie-body {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1375px;
+  margin-top: 460px;
+}
+
+.currentlywatching-body {
+  color: black;
+  font-family: soleil, sans-serif;
+  font-size: 17px;
+  padding: 20px;
+  position: absolute;
+  margin-left: 1375px;
+  margin-top: 615px;
+}
+
+
+/*=========================
+
+
+  Contact Page Styling
+
+==========================*/
+
+h1 {
+  font-family: gopher, sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 170px;
+  left: 450px;
+}
+
+.contact-statement {
+  font-family: soleil, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  position: absolute;
+  top: 250px;
+  left: 460px;
+}
+
+.orangeblob1 {
+  width: 800px;
+  position: fixed;
+  left: -100px;
+  top: 820px;
+}
+
+.orangeblob2 {
+  width: 500px;
+  position: fixed;
+  left: -100px;
+  top:-100px;
+}
+
+.orangeblob3 {
+  width: 400px;
+  position: fixed;
+  left: 1500px;
+  top:300px;
+}
+
+.orangeblob4 {
+  width: 600px;
+  position: fixed;
+  left: 1200px;
+  top:-300px;
+  transform: rotate(135deg)
+}
+
+footer {
+  font-family: soleil, sans-serif;
+  font-size: 10px;
+  color: black;
+  padding: 20px;
+  text-align: right;
+  margin-top: 300px;
+}
+
+/*=========================
+
+
+  Contact Page Text
+
+
+==========================*/
+
+.contact-form {
+  background: none;
+  padding: 40px;
+  max-width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+
+.first-name, .lastname, .email, .company, .message {
+  border-bottom: solid 2px black;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+input[type="text"]{
+  background-color: #FFEDE5;
+  outline: none;
+  width: 40%;
+  font-size: 20px;
+}
+
+input[type="email"]{
+  background-color: #FFEDE5;
+  outline: none;
+  width: 40%;
+  font-size: 20px;
+}
+
+input[type="message"]{
+  background-color: #FFEDE5;
+  font-size: 20px;
+  outline: none;
+  width: 40%;
+}
+
+textarea {
+  background-color: #FFEDE5;
+  font-size: 20px;
+  height: 20px;
+  outline: none;
+  width: 80%;
+}
+
+input[type="submit"] {
+  background: #ffffff;
+  color: black;
+  font-size: 17px;
+  padding: 10px;
+  margin: 10% 88%;
+  border-radius: 50px;
+}
+
+.pseudo {
+  text-align: center;
+  margin-top: -150px;
+}
+
+.pseudo p::first-letter {
+  font-size: 25px;
+}
+
+.pseudo p:nth-child(1):first-line {
+  color: #F2A444
+}
+
+.pseudo p::selection {
+  background: black;
+  color: white;
+}
+
+/*=========================
+
+
+  Video Page Styling
+
+
+==========================*/
